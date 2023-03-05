@@ -7,6 +7,7 @@ import { HeaderComponent } from './componets/header/header.component';
 import { FooterComponent } from './componets/footer/footer.component';
 import { SlideComponent } from './componets/slide/slide.component';
 import { ContentComponent } from './componets/content/content.component';
+import { StatisticsComponent } from './componets/statistics/statistics.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { ContentComponent } from './componets/content/content.component';
     HeaderComponent,
     FooterComponent,
     SlideComponent,
-    ContentComponent
+    ContentComponent,
+    StatisticsComponent
   ],
   imports: [
     BrowserModule,
