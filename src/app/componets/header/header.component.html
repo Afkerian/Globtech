@@ -31,7 +31,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">INICIO</a>
+          <a class="nav-link active" aria-current="page" [routerLink]="'/inicio'" [routerLinkActive]="'active'">INICIO</a>
         </li>
         <li class="nav-item dropdown">
           <a
@@ -44,7 +44,7 @@
             COMPAÑIA
           </a>
           <ul class="dropdown-menu" style="background-color: #4b4e53;">
-            <li><a class="dropdown-item" href="#">QUIENES SOMOS</a></li>
+            <li><a class="dropdown-item" [routerLink]="'/quienes-somos'" [routerLinkActive]="'active'">QUIENES SOMOS</a></li>
           </ul>
         </li>
         <li class="nav-item dropdown">
@@ -58,8 +58,8 @@
             PRODUCTOS
           </a>
           <ul class="dropdown-menu" style="background-color: #4b4e53;">
-            <li><a class="dropdown-item" href="#">IMAGENES SATELITALES</a></li>
-            <li><a class="dropdown-item" href="#">SOFTWARE</a></li>
+            <!-- <li><a class="dropdown-item" [routerLink]="'/imagenes-satelitales'" [routerLinkActive]="'active'">IMAGENES SATELITALES</a></li> -->
+            <li><a class="dropdown-item" [routerLink]="'/software'" [routerLinkActive]="'active'">SOFTWARE</a></li>
           </ul>
         </li>
         <li class="nav-item dropdown">
@@ -73,19 +73,19 @@
             SERVICIOS
           </a>
           <ul class="dropdown-menu" style="background-color: #4b4e53;">
-            <li><a class="dropdown-item" href="#">DRONES</a></li>
-            <li><a class="dropdown-item" href="#">SATELITES</a></li>
-            <li><a class="dropdown-item" href="#">GEOSERVICIOS</a></li>
+            <li><a class="dropdown-item" [routerLink]="'/drones'" [routerLinkActive]="'active'">DRONES</a></li>
+            <li><a class="dropdown-item" [routerLink]="'/satelites'" [routerLinkActive]="'active'">SATELITES</a></li>
+            <li><a class="dropdown-item" [routerLink]="'/geoservicios'" [routerLinkActive]="'active'">GEOSERVICIOS</a></li>
           </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">PRENSA</a>
+          <a class="nav-link active" aria-current="page" [routerLink]="'/prensa'" [routerLinkActive]="'active'">PRENSA</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">CONTACTO</a>
+          <a class="nav-link active" aria-current="page" [routerLink]="'/contacto'" [routerLinkActive]="'active'">CONTACTO</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">ACCEDER</a>
+          <a class="nav-link active" aria-current="page" [routerLink]="'/acceder'" [routerLinkActive]="'active'">ACCEDER</a>
         </li>
       </ul>
     </div>

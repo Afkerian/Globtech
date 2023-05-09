@@ -1,0 +1,19 @@
+<div class="container mt-5 py-5">
+  <div class="container">
+    
+<div class="gallery row">
+    <div class="col-sm-6 col-md-4 col-lg-3 image" *ngFor="let geoservicio of geoservicios">
+      <img [src]="'./../../../assets/uploads/'+ geoservicio.image" alt="" class="img-fluid rounded hover-zoom" data-toggle="modal" data-target="#imageModal">
+    </div>
+  </div>
+  <div class="modal fade" id="imageModal" tabindex="-1" role="dialog" aria-labelledby="imageModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+          <img src="" alt="" class="img-fluid" id="modalImage">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
